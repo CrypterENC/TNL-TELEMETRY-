@@ -35,28 +35,12 @@ Built with **Tauri** (Rust + React), the app offers a lightweight, cross-platfor
 
 ### Installation
 
-#### Option 1: Download Installer (Recommended)
+#### Download Installer (Recommended)
 
 1. Go to [Releases](https://github.com/CrypterENC/TNL-TELEMETRY-/releases)
 2. Download the latest `TamilNadu.Logistics_x.x.x_x64-setup.exe`
 3. Run the installer and follow the prompts
 4. Launch the app from Start Menu
-
-#### Option 2: Build from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/CrypterENC/TNL-TELEMETRY-.git
-cd "TNL_TRACKER  - Frontend/frontend/TNL_TRACKER"
-
-# Install dependencies
-npm install
-
-# Build the app
-npm run tauri build
-
-# The installer will be in src-tauri/target/release/bundle/nsis/
-```
 
 ## 📖 Usage
 
