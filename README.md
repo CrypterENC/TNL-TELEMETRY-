@@ -2,7 +2,7 @@
 
 **TNL Hub** — A modern desktop application for tracking and managing vehicle telemetry data for Euro Truck Simulator 2, with Discord Rich Presence integration and real-time monitoring.
 
-![Version](https://img.shields.io/badge/version-0.0.3-blue)
+![Version](https://img.shields.io/badge/version-0.0.2-blue)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 ![Status](https://img.shields.io/badge/status-Active%20Development-green)
 
@@ -68,28 +68,6 @@ Navigate to **Settings** (⚙️) to configure:
 
 ## 🔧 Development
 
-### Project Structure
-
-```
-TNL_TRACKER - Frontend/
-├── frontend/TNL_TRACKER/
-│   ├── src/                    # React frontend
-│   │   ├── components/         # React components
-│   │   ├── store/              # Zustand state management
-│   │   ├── assets/             # Images, logos
-│   │   └── App.tsx             # Main app component
-│   ├── src-tauri/              # Rust backend
-│   │   ├── src/
-│   │   │   ├── api/            # External API integration
-│   │   │   ├── auth/           # Authentication & encryption
-│   │   │   ├── cache/          # Caching system
-│   │   │   ├── monitoring/     # Discord RPC, telemetry
-│   │   │   ├── utils/          # Settings, updater
-│   │   │   └── lib.rs          # Main entry point
-│   │   └── Cargo.toml          # Rust dependencies
-│   └── package.json            # Node dependencies
-```
-
 ### Tech Stack
 
 **Frontend:**
@@ -105,26 +83,6 @@ TNL_TRACKER - Frontend/
 - SQLx (database)
 - Reqwest (HTTP client)
 - Tokio (async runtime)
-
-### Running in Development
-
-```bash
-# Terminal 1: Start Vite dev server
-npm run dev
-
-# Terminal 2: Start Tauri dev app
-npm run tauri dev
-```
-
-### Building
-
-```bash
-# Build production bundle
-npm run build
-
-# Build Tauri app
-npm run tauri build
-```
 
 ## 📝 Changelogs
 
