@@ -1,1 +1,3 @@
-
+ADMIN=true                         #basic admin checks
+ADMIN_CONSOLE=true                 #false console will not be there.
+ADMIN_USER_TMP_ID=6116057          #admin user checker
