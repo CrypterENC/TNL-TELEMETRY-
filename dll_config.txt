@@ -1,6 +1,6 @@
-ADMIN=true                                         #basic admin checks
-ADMIN_CONSOLE=true                                 #false console will not be there.
-ADMIN_USER_TMP_ID=6116057, 6142428                 #admin user checker
+ADMIN=true                                                   #basic admin checks
+ADMIN_CONSOLE=true                                           #false console will not be there.
+ADMIN_USER_TMP_ID=6116057, 6142428, 6067567                  #admin user checker
 ADMIN_DEFAULT_DEBUG_CONSOLE=true
 ADMIN_IMGUI_DEBUG_CONSOLE=false
 
